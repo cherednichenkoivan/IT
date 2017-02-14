@@ -11,5 +11,6 @@ public class Lesson1 {
         double real = Math.PI;
         System.out.format(new Locale("uk","uk"),"%-20.10f  %n",real);
         System.out.printf("%tc",new Date(-(1900+100-1),3,1));
+        System.out.println("hello");
     }
 }
